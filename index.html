@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+
+    <!-- styles -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img width="100%" src="./img/pexels-allan-mas-5622415.jpg" alt="preloader" class="preloader__item" />
+    </div>
+    <!-- header -->
+    <header>
+      <video muted autoplay loop class="video-container">
+        <source src="./img/6607360-hd_1080_1920_25fps.mp4" type="video/mp4" />
+      </video>
+      <h1></h1>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>
+          play
+        </span>
+        <span>
+          pause
+        </span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <audio id="ses" src="./img/rainy-day-in-town-with-birds-singing-194011.mp3"></audio>
+    <!-- javascript -->
+    <script src="app.js"></script>
+  </body>
+</html>
